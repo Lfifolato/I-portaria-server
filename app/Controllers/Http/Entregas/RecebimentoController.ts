@@ -1,7 +1,6 @@
 import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import Entrega from 'App/Models/Entrega'
-import Residencia from 'App/Models/Residencia'
-import apiNotifications from 'App/services/apiNotifications'
+
 import { UpdateValidator } from 'App/Validators/Recebimento'
 
 export default class RecebimentoController {
