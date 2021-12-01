@@ -12,3 +12,5 @@ import './routes/entrega'
 Route.get('/', async () => {
   return { api: 'I-Portaria', version: '1.0', ambiente: 'Produção' }
 })
+
+Route.post('/busca', 'SearchResidenciasController.Busca')
